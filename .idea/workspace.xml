@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepPizzaShop_v1.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagramPizzaShop_v1.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/menu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/OrdersGUIFXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/kitchenGUIFXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainFXML.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="initialCommit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,11 +52,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740913480040</updated>
-      <workItem from="1740913481395" duration="1954000" />
+      <workItem from="1740913481395" duration="2539000" />
     </task>
+    <task id="LOCAL-00001" summary="initialCommit">
+      <option name="closed" value="true" />
+      <created>1740915552522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740915552522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialCommit" />
   </component>
 </project>
