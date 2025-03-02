@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepPizzaShop_v1.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagramPizzaShop_v1.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/menu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/OrdersGUIFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/kitchenGUIFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainFXML.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2tl4lP8kyJQnLkGLvfFpDLWHkyj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="" />
+      <created>1740913480040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740913480040</updated>
+      <workItem from="1740913481395" duration="1954000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
