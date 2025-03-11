@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
-      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Diagram_v2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Requirements_v2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +23,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AriiSM"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TeodorRuse/VVSS-2025.git",
+    "accountId": "f4ce552a-51f3-4fe8-ab59-921a1c014957"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2tl4lP8kyJQnLkGLvfFpDLWHkyj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01",
     "node.js.detected.package.eslint": "true",
@@ -51,6 +71,14 @@
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740913480040</updated>
       <workItem from="1740913481395" duration="4746000" />
+      <workItem from="1741710926580" duration="4564000" />
     </task>
     <task id="LOCAL-00001" summary="initialCommit">
       <option name="closed" value="true" />

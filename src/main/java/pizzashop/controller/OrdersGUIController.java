@@ -13,6 +13,7 @@ import pizzashop.gui.OrdersGUI;
 import pizzashop.service.PaymentAlert;
 import pizzashop.service.PizzaService;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
@@ -44,8 +45,9 @@ public class OrdersGUIController {
     @FXML
     private Button newOrder;
 
-    private   List<String> orderList = FXCollections.observableArrayList();
-    private List<Double> orderPaymentList = FXCollections.observableArrayList();
+    private List<String> orderList = new ArrayList<>();
+    private List<Double> orderPaymentList = new ArrayList<>();
+
     public static double getTotalAmount() {
         return totalAmount;
     }
@@ -73,7 +75,7 @@ public class OrdersGUIController {
 
     private void initData(){
         menuData = FXCollections.observableArrayList(service.getMenuData());
-        menuData.setAll(service.getMenuData());
+        //menuData.setAll(service.getMenuData());
         orderTable.setItems(menuData);
 
         //Controller for Place Order Button
