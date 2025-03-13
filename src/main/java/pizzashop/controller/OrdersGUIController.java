@@ -59,7 +59,7 @@ public class OrdersGUIController {
     private int tableNumber;
 
     public ObservableList<String> observableList;
-    private TableView<MenuDataModel> table = new TableView<MenuDataModel>();
+    private TableView<MenuDataModel> table = new TableView<>();
     private ObservableList<MenuDataModel> menuData;// = FXCollections.observableArrayList();
     private Calendar now = Calendar.getInstance();
     private static double totalAmount;

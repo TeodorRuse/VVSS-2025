@@ -11,16 +11,15 @@ public class MenuRepository {
     private static String filename = "data/menu.txt";
     private List<MenuDataModel> listMenu;
 
-    public MenuRepository(){
-    }
+    public MenuRepository(){}
 
     private void readMenu(){
         //ClassLoader classLoader = MenuRepository.class.getClassLoader();
         File file = new File(filename);
-        this.listMenu= new ArrayList();
-        BufferedReader br = null;
-        try {
-            br = new BufferedReader(new FileReader(file));
+        this.listMenu= new ArrayList<MenuDataModel>();
+//        BufferedReader br = null;
+        try (BufferedReader br = new BufferedReader(new FileReader(file));){
+            //br = new BufferedReader(new FileReader(file));
             String line = null;
             while((line=br.readLine())!=null){
                 MenuDataModel menuItem=getMenuItem(line);
