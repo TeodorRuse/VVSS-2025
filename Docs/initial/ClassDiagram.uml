@@ -9,10 +9,7 @@
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
-    <Category>Fields</Category>
-    <Category>Inner Classes</Category>
     <Category>Methods</Category>
-    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

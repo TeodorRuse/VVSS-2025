@@ -21,11 +21,15 @@ public class KitchenGUIController {
     private Calendar now = Calendar.getInstance();
     private String extractedTableNumberString = new String();
     private int extractedTableNumberInteger;
+
+    // Variabilă pentru a controla oprirea thread-ului
+    private volatile boolean running = true;
+
     //thread for adding data to kitchenOrderList
     public  Thread addOrders = new Thread(new Runnable() {
         @Override
         public void run() {
-            while (true) {
+            while (running) {
                 Platform.runLater(new Runnable() {
                     @Override
                     public void run() {
@@ -35,7 +39,7 @@ public class KitchenGUIController {
                 try {
                     Thread.sleep(100);
                   } catch (InterruptedException ex) {
-                    break;
+                    running = false;
                 }
             }
         }
