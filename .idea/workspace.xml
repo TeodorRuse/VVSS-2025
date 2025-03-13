@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="">
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Diagram_v2.0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/Diagram_v2.0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Diagram_v2.0.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/RequirementsPizzaShop_v2.0.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/RequirementsPizzaShop_v2.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Requirements_v2.0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/Requirements_v2.0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Requirements_v2.0.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v2.0.pdf" beforeDir="false" />
@@ -25,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;AriiSM&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AriiSM"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/TeodorRuse/VVSS-2025.git&quot;,
-    &quot;accountId&quot;: &quot;f4ce552a-51f3-4fe8-ab59-921a1c014957&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TeodorRuse/VVSS-2025.git",
+    "accountId": "f4ce552a-51f3-4fe8-ab59-921a1c014957"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -55,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01",
@@ -127,6 +125,6 @@
     <MESSAGE value="initialCommit" />
     <MESSAGE value="second Commit" />
     <MESSAGE value="Requirements Phase Review 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="Requirements Phase Review 01" />
   </component>
 </project>
