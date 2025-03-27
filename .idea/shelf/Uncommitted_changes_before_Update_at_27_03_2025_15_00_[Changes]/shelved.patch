@@ -1,0 +1,113 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cef346af-45e7-47ed-8c36-2acbcbb60d3b\" name=\"Changes\" comment=\"Tool Review 02\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;AriiSM&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/TeodorRuse/VVSS-2025.git&quot;,\r\n    &quot;accountId&quot;: &quot;f4ce552a-51f3-4fe8-ab59-921a1c014957&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tl4lP8kyJQnLkGLvfFpDLWHkyj\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Universitait\\Anul 3\\Semestrul 2\\VVSS\\Lab\\PizzaShop\\Docs\\Lab01\" />\r\n      <recent name=\"D:\\Universitait\\Anul 3\\Semestrul 2\\VVSS\\Lab\\PizzaShop\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cef346af-45e7-47ed-8c36-2acbcbb60d3b\" name=\"Changes\" comment=\"\" />\r\n      <created>1740913480040</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740913480040</updated>\r\n      <workItem from=\"1740913481395\" duration=\"4746000\" />\r\n      <workItem from=\"1741710926580\" duration=\"4564000\" />\r\n      <workItem from=\"1741882480363\" duration=\"385000\" />\r\n      <workItem from=\"1741882884131\" duration=\"1983000\" />\r\n      <workItem from=\"1741947997607\" duration=\"689000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initialCommit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740915552522</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740915552522</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"second Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740916312967</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740916312967</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Requirements Phase Review 01\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740926284270</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740926284270</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Requirements Phase Review 01\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741881710904</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741881710904</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Tool Review 01\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741884691975</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741884691975</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Tool Review 02\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741884801984</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741884801984</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"initialCommit\" />\r\n    <MESSAGE value=\"second Commit\" />\r\n    <MESSAGE value=\"Requirements Phase Review 01\" />\r\n    <MESSAGE value=\"Tool Review 01\" />\r\n    <MESSAGE value=\"Tool Review 02\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Tool Review 02\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision eadf621c08870c9172d064dd0ef08ac8fb709ec9)
++++ b/.idea/workspace.xml	(date 1741949870395)
+@@ -4,8 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Tool Review 02">
++    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,26 +40,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "Merging master",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab01" />
+@@ -76,8 +76,7 @@
+       <workItem from="1740913481395" duration="4746000" />
+       <workItem from="1741710926580" duration="4564000" />
+       <workItem from="1741882480363" duration="385000" />
+-      <workItem from="1741882884131" duration="1983000" />
+-      <workItem from="1741947997607" duration="689000" />
++      <workItem from="1741882884131" duration="1611000" />
+     </task>
+     <task id="LOCAL-00001" summary="initialCommit">
+       <option name="closed" value="true" />
+@@ -111,23 +110,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1741881710904</updated>
+     </task>
+-    <task id="LOCAL-00005" summary="Tool Review 01">
+-      <option name="closed" value="true" />
+-      <created>1741884691975</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1741884691975</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="Tool Review 02">
+-      <option name="closed" value="true" />
+-      <created>1741884801984</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1741884801984</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -149,9 +132,8 @@
+     <MESSAGE value="initialCommit" />
+     <MESSAGE value="second Commit" />
+     <MESSAGE value="Requirements Phase Review 01" />
+-    <MESSAGE value="Tool Review 01" />
+-    <MESSAGE value="Tool Review 02" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Tool Review 02" />
++    <MESSAGE value="Tool Review 03" />
++    <option name="LAST_COMMIT_MESSAGE" value="Tool Review 03" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
