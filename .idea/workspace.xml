@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
-      <change afterPath="$PROJECT_DIR$/Docs/initial/Lab02/Lab02_BBT_TCs_Form.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepPizzaShop_v1.0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagramDepPizzaShop_v1.0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramPizzaShop_v1.0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagramPizzaShop_v1.0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/RequirementsPizzaShop_v1.0.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/RequirementsPizzaShop_v1.0.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +56,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Ariana/Facultate/SEM6/VVSS/LAB/PizzaProject/Docs/initial/Lab02",
+    "last_opened_file_path": "C:/Users/Dana Rusu/Desktop/facultate/anul III/semestrul 2/VVSS/Laborator/PizzaShop/Docs/Lab02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dana Rusu\Desktop\facultate\anul III\semestrul 2\VVSS\Laborator\PizzaShop\Docs\Lab02" />
       <recent name="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\Docs\initial\Lab02" />
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab01" />
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop" />
