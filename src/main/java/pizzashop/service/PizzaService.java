@@ -22,10 +22,24 @@ public class PizzaService {
 
     public List<Payment> getPayments(){return payRepo.getAll(); }
 
+//    public void addPayment(int table, PaymentType type, double amount){
+//        Payment payment= new Payment(table, type, amount);
+//        payRepo.add(payment);
+//    }
+
+
     public void addPayment(int table, PaymentType type, double amount){
-        Payment payment= new Payment(table, type, amount);
+        if (table < 1 || table > 8) {
+            throw new IllegalArgumentException("Table number must be between 1 and 8");
+        }
+        if (amount <= 0) {
+            throw new IllegalArgumentException("Amount must be positive");
+        }
+
+        Payment payment = new Payment(table, type, amount);
         payRepo.add(payment);
     }
+
 
     public double getTotalAmount(PaymentType type){
         double total=0.0f;

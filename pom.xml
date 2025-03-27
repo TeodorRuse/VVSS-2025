@@ -84,7 +84,33 @@
       <artifactId>controlsfx</artifactId>
       <version>11.0.1</version>
     </dependency>
+
+    <!-- JUnit Jupiter Engine (pentru rularea testelor) -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.6.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit Jupiter API (pentru scrierea testelor) -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.6.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit Jupiter Params (pentru testele parametrizate) -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.6.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
+
+
 
   <build>
     <plugins>

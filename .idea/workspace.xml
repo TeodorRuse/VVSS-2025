@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01" />
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
+      <change afterPath="$PROJECT_DIR$/Docs/initial/Lab02/Lab02_BBT_TCs_Form.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramDepPizzaShop_v1.0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagramDepPizzaShop_v1.0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagramPizzaShop_v1.0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/ClassDiagramPizzaShop_v1.0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/RequirementsPizzaShop_v1.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/Lab01/RequirementsPizzaShop_v1.0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,30 +56,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab01&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.PizzaServiceTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Ariana/Facultate/SEM6/VVSS/LAB/PizzaProject/Docs/initial/Lab02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\Docs\initial\Lab02" />
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab01" />
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\Docs\initial\Lab01" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rtir3415" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PizzaServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +128,7 @@
       <workItem from="1741710926580" duration="4564000" />
       <workItem from="1741882480363" duration="385000" />
       <workItem from="1741882884131" duration="1611000" />
+      <workItem from="1743067635750" duration="4352000" />
     </task>
     <task id="LOCAL-00001" summary="initialCommit">
       <option name="closed" value="true" />
