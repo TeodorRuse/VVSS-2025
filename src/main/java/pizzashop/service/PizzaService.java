@@ -35,6 +35,8 @@ public class PizzaService {
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be positive");
         }
+        if (type != PaymentType.Cash || type != PaymentType.Card)
+            throw new IllegalArgumentException("Type must be Cash or Card");
 
         Payment payment = new Payment(table, type, amount);
         payRepo.add(payment);
