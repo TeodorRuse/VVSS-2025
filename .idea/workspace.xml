@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
-    </list>
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "JUnit.F01PizzaServiceTest.executor": "Coverage",
-    "JUnit.F02PizzaServiceTest.executor": "Run",
+    "JUnit.F02PizzaServiceTest.executor": "Coverage",
     "JUnit.F02PizzaServiceTest.testGetTotalAmount_SingleNonMatchingPayment.executor": "Run",
     "JUnit.PizzaServiceTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -170,7 +167,7 @@
       <workItem from="1744185580717" duration="6123000" />
       <workItem from="1744202999617" duration="93000" />
       <workItem from="1744203494377" duration="2000" />
-      <workItem from="1744203542855" duration="319000" />
+      <workItem from="1744203542855" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="initialCommit">
       <option name="closed" value="true" />
@@ -233,10 +230,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PizzaProject$F01PizzaServiceTest.ic" NAME="F01PizzaServiceTest Coverage Results" MODIFIED="1744199922568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/PizzaProject$F01PizzaServiceTest.ic" NAME="F01PizzaServiceTest Coverage Results" MODIFIED="1744203867256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>pizzashop.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/PizzaProject$F02PizzaServiceTest.ic" NAME="F02PizzaServiceTest Coverage Results" MODIFIED="1744199933789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/PizzaProject$F02PizzaServiceTest.ic" NAME="F02PizzaServiceTest Coverage Results" MODIFIED="1744203875192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>pizzashop.service.*</FILTER>
     </SUITE>
   </component>
