@@ -6,7 +6,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
-import pizzashop.service.PizzaService;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,8 +13,8 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@Tag("PizzaServiceTests")
-class PizzaServiceTest {
+@Tag("F01PizzaServiceTests")
+class F01PizzaServiceTest {
 
     private PizzaService service;
 
@@ -40,7 +39,7 @@ class PizzaServiceTest {
 
     @DisplayName("ECP Valid Payment 2")
     @Test
-    @Order(5)
+    @Order(2)
     void testAddPayment_ECP_Valid2() {
         service.addPayment(5, PaymentType.Card, 70.0);
         assertEquals(70.0, service.getTotalAmount(PaymentType.Card), 0.01);
@@ -49,7 +48,7 @@ class PizzaServiceTest {
 
     @DisplayName("ECP Invalid Table Number")
     @Test
-    @Order(2)
+    @Order(3)
     void testAddPayment_ECP_InvalidTable() {
         assertThrows(IllegalArgumentException.class, () -> {
             service.addPayment(-1, PaymentType.Cash, 50.0);
@@ -58,12 +57,13 @@ class PizzaServiceTest {
 
     @DisplayName("ECP Invalid Amount")
     @Test
-    @Order(3)
+    @Order(4)
     void testAddPayment_ECP_InvalidAmount() {
         assertThrows(IllegalArgumentException.class, () -> {
             service.addPayment(2, PaymentType.Cash, -20.0);
         });
     }
+
 
     @DisplayName("BVA Test Table Values")
     @ParameterizedTest
@@ -73,7 +73,7 @@ class PizzaServiceTest {
             "0, 40.0", // Invalid below min
             "9, 40.0"  // Invalid above max
     })
-    @Order(4)
+    @Order(5)
     void testAddPayment_BVA_Tables(int table, double amount) {
         if (table >= 1 && table <= 8) {
             service.addPayment(table, PaymentType.Card, amount);
