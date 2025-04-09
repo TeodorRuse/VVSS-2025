@@ -40,11 +40,29 @@ public class PizzaService {
         payRepo.add(payment);
     }
 
+//    public double getTotalAmount(PaymentType type){
+//        double total=0.0f;
+//        List<Payment> l=getPayments();
+//
+//        if ((l==null) ||(l.isEmpty()))
+//            return total;
+//
+//        for (Payment p:l){
+//            if (p.getType().equals(type))
+//                total+=p.getAmount();
+//        }
+//
+//        return total;
+//    }
+
     public double getTotalAmount(PaymentType type){
         double total=0.0f;
         List<Payment> l=getPayments();
 
-        if ((l==null) ||(l.isEmpty()))
+        if (l==null)
+            return total;
+
+        if (l.isEmpty())
             return total;
 
         for (Payment p:l){

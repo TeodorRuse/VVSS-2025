@@ -72,10 +72,10 @@ Current scope:     <a href="../../index.html">all classes</a>
 </td>
 <td class="coverageStat">
   <span class="percent">
-    90.5%
+    91.3%
   </span>
   <span class="absValue">
-    (19/21)
+    (21/23)
   </span>
 </td>
 </tr>
@@ -129,11 +129,29 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="fc">&nbsp;        payRepo.add(payment);</b>
 &nbsp;    }
 &nbsp;
+&nbsp;//    public double getTotalAmount(PaymentType type){
+&nbsp;//        double total=0.0f;
+&nbsp;//        List&lt;Payment&gt; l=getPayments();
+&nbsp;//
+&nbsp;//        if ((l==null) ||(l.isEmpty()))
+&nbsp;//            return total;
+&nbsp;//
+&nbsp;//        for (Payment p:l){
+&nbsp;//            if (p.getType().equals(type))
+&nbsp;//                total+=p.getAmount();
+&nbsp;//        }
+&nbsp;//
+&nbsp;//        return total;
+&nbsp;//    }
+&nbsp;
 &nbsp;    public double getTotalAmount(PaymentType type){
 <b class="fc">&nbsp;        double total=0.0f;</b>
 <b class="fc">&nbsp;        List&lt;Payment&gt; l=getPayments();</b>
 &nbsp;
-<b class="fc">&nbsp;        if ((l==null) ||(l.isEmpty()))</b>
+<b class="fc">&nbsp;        if (l==null)</b>
+<b class="fc">&nbsp;            return total;</b>
+&nbsp;
+<b class="fc">&nbsp;        if (l.isEmpty())</b>
 <b class="fc">&nbsp;            return total;</b>
 &nbsp;
 <b class="fc">&nbsp;        for (Payment p:l){</b>
@@ -168,7 +186,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2025-04-09 15:04</div>
+    <div style="float:right;">generated on 2025-04-09 16:04</div>
 </div>
 </body>
 </html>
