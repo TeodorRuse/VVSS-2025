@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
-      <change afterPath="$PROJECT_DIR$/Docs/Lab03/Prj236_test_spec-2025-04-10.doc" afterDir="false" />
+    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Lab03_AutomatedTestLinkReport">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/Lab03/Lab03_WBT_TCs_Form.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/Lab03_WBT_TCs_Form.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/css/coverage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/css/coverage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/css/idea.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/css/idea.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/img/arrowDown.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/img/arrowDown.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/img/arrowUp.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/img/arrowUp.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/js/highlight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/js/highlight.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/js/highlightjs-line-numbers.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/js/highlightjs-line-numbers.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/sources/source-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/sources/source-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/sources/source-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/htmlReport/ns-1/sources/source-3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,30 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.F01PizzaServiceTest.executor": "Coverage",
-    "JUnit.F02PizzaServiceTest.executor": "Coverage",
-    "JUnit.F02PizzaServiceTest.testGetTotalAmount_SingleNonMatchingPayment.executor": "Run",
-    "JUnit.PizzaServiceTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.F01PizzaServiceTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.F02PizzaServiceTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.F02PizzaServiceTest.testGetTotalAmount_SingleNonMatchingPayment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PizzaServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab03" />
@@ -176,14 +146,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -203,6 +165,7 @@
       <workItem from="1744202999617" duration="93000" />
       <workItem from="1744203494377" duration="2000" />
       <workItem from="1744203542855" duration="477000" />
+      <workItem from="1744362485692" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="initialCommit">
       <option name="closed" value="true" />
@@ -236,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741881710904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab03_AutomatedTestLinkReport">
+      <option name="closed" value="true" />
+      <created>1744298147163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744298147164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +229,8 @@
     <MESSAGE value="initialCommit" />
     <MESSAGE value="second Commit" />
     <MESSAGE value="Requirements Phase Review 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Requirements Phase Review 01" />
+    <MESSAGE value="Lab03_AutomatedTestLinkReport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab03_AutomatedTestLinkReport" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
