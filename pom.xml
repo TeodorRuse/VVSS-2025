@@ -14,31 +14,137 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--    <maven.compiler.source>1.8</maven.compiler.source>-->
-<!--    <maven.compiler.target>1.8</maven.compiler.target>-->
-    <junit-plaform.version>5.6.0</junit-plaform.version>
+      <maven.compiler.source>21</maven.compiler.source>
+      <maven.compiler.target>21</maven.compiler.target>
+<!--    <junit-plaform.version>5.6.0</junit-plaform.version>-->
   </properties>
 
+<!--  <dependencies>-->
+<!--    &lt;!&ndash; JUnit 5&ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-engine</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-api</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-params</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-base</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-graphics</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-controls</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-fxml</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-media</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-swing</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-web</artifactId>-->
+<!--      <version>14-ea+4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>log4j</groupId>-->
+<!--      <artifactId>log4j</artifactId>-->
+<!--      <version>1.2.17</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.controlsfx</groupId>-->
+<!--      <artifactId>controlsfx</artifactId>-->
+<!--      <version>11.0.1</version>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; JUnit Jupiter Engine (pentru rularea testelor) &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-engine</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; JUnit Jupiter API (pentru scrierea testelor) &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-api</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; JUnit Jupiter Params (pentru testele parametrizate) &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.junit.jupiter</groupId>-->
+<!--      <artifactId>junit-jupiter-params</artifactId>-->
+<!--      <version>5.6.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--  </dependencies>-->
+
   <dependencies>
+
+    <!-- ✅ JUnit 5 complet -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <version>5.6.0</version>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.10.0</version>
       <scope>test</scope>
     </dependency>
 
+    <!-- ✅ Suport pentru @Suite, @SelectClasses -->
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-suite-api</artifactId>
+      <version>1.10.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ Mockito core (mock-uri generale) -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.12.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ Mockito + JUnit 5 (@ExtendWith(MockitoExtension.class)) -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>5.12.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ JavaFX - necesar pentru interfața aplicației -->
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-base</artifactId>
@@ -74,42 +180,44 @@
       <artifactId>javafx-web</artifactId>
       <version>14-ea+4</version>
     </dependency>
+
+    <!-- ✅ Logging -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
+
+    <!-- ✅ ControlsFX -->
     <dependency>
       <groupId>org.controlsfx</groupId>
       <artifactId>controlsfx</artifactId>
       <version>11.0.1</version>
     </dependency>
 
-    <!-- JUnit Jupiter Engine (pentru rularea testelor) -->
+    <!-- ❌ Variante vechi JUnit (necesar doar dacă nu folosești `junit-jupiter`) -->
+    <!--
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.6.0</version>
+        <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.6.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>5.6.0</version>
+        <scope>test</scope>
+    </dependency>
+    -->
 
-    <!-- JUnit Jupiter API (pentru scrierea testelor) -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <!-- JUnit Jupiter Params (pentru testele parametrizate) -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
-
 
 
   <build>

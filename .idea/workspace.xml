@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="Requirements Phase Review 01">
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab03/Lab03_WBT_TCs_Form.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/Lab03_WBT_TCs_Form.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/F01PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/F0102/F01PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/F02PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/F0102/F02PizzaServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,66 +44,38 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2tl4lP8kyJQnLkGLvfFpDLWHkyj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2wa7kx39GzlZHKOlfLaXWXYiFoz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.F01PizzaServiceTest.executor": "Coverage",
-    "JUnit.F02PizzaServiceTest.executor": "Run",
-    "JUnit.F02PizzaServiceTest.testGetTotalAmount_SingleNonMatchingPayment.executor": "Run",
-    "JUnit.PizzaServiceTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "JUnit.E_PaymentTest.executor": "Run",
+    "JUnit.L04PizzaERSTesting.executor": "Run",
+    "JUnit.R_PaymentRepositoryTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Universitait/Anul 3/Semestrul 2/VVSS/Lab/PizzaShop/Docs/Lab03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab03" />
-      <recent name="C:\Users\Dana Rusu\Desktop\facultate\anul III\semestrul 2\VVSS\Laborator\PizzaShop\Docs\Lab02" />
-      <recent name="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\Docs\initial\Lab02" />
-      <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab01" />
-      <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab03" />
-      <recent name="D:\Ariana\Facultate\SEM6\VVSS\LAB\PizzaProject\Docs\initial\Lab01" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pizzashop.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.F02PizzaServiceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pizzashop.Main" />
-      <module name="rtir3415" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pizzashop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="F01PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.S_PizzaServiceTest">
+    <configuration name="E_PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rtir3415" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +84,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.F01PizzaServiceTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.E_PaymentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F02PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L04PizzaERSTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rtir3415" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.F0102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.L04PizzaERSTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="R_PaymentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rtir3415" />
       <extension name="coverage">
         <pattern>
@@ -128,121 +114,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.F02PizzaServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.R_PaymentRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.F01PizzaServiceTest" />
-      <item itemvalue="JUnit.F02PizzaServiceTest" />
-    </list>
+    <configuration name="S_PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rtir3415" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.S_PizzaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.F02PizzaServiceTest" />
-        <item itemvalue="JUnit.F01PizzaServiceTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.S_PizzaServiceTest" />
+        <item itemvalue="JUnit.R_PaymentRepositoryTest" />
+        <item itemvalue="JUnit.E_PaymentTest" />
+        <item itemvalue="JUnit.L04PizzaERSTesting" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cef346af-45e7-47ed-8c36-2acbcbb60d3b" name="Changes" comment="" />
-      <created>1740913480040</created>
+      <changelist id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="" />
+      <created>1746261273095</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740913480040</updated>
-      <workItem from="1740913481395" duration="4746000" />
-      <workItem from="1741710926580" duration="4564000" />
-      <workItem from="1741882480363" duration="385000" />
-      <workItem from="1741882884131" duration="1611000" />
-      <workItem from="1743067635750" duration="4352000" />
-      <workItem from="1743157236978" duration="4203000" />
-      <workItem from="1743929466578" duration="16000" />
-      <workItem from="1744185580717" duration="6123000" />
-      <workItem from="1744202999617" duration="93000" />
-      <workItem from="1744203494377" duration="2000" />
-      <workItem from="1744203542855" duration="477000" />
-      <workItem from="1744362485692" duration="798000" />
+      <updated>1746261273095</updated>
+      <workItem from="1746261274613" duration="1225000" />
+      <workItem from="1746267980028" duration="1463000" />
+      <workItem from="1746269450411" duration="531000" />
     </task>
-    <task id="LOCAL-00001" summary="initialCommit">
-      <option name="closed" value="true" />
-      <created>1740915552522</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740915552522</updated>
-    </task>
-    <task id="LOCAL-00002" summary="second Commit">
-      <option name="closed" value="true" />
-      <created>1740916312967</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740916312967</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Requirements Phase Review 01">
-      <option name="closed" value="true" />
-      <created>1740926284270</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740926284270</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Requirements Phase Review 01">
-      <option name="closed" value="true" />
-      <created>1741881710904</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1741881710904</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Lab03_AutomatedTestLinkReport">
-      <option name="closed" value="true" />
-      <created>1744298147163</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1744298147164</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initialCommit" />
-    <MESSAGE value="second Commit" />
-    <MESSAGE value="Requirements Phase Review 01" />
-    <MESSAGE value="Lab03_AutomatedTestLinkReport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab03_AutomatedTestLinkReport" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PizzaProject$F01PizzaServiceTest.ic" NAME="F01PizzaServiceTest Coverage Results" MODIFIED="1744203867256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>pizzashop.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PizzaProject$F02PizzaServiceTest.ic" NAME="F02PizzaServiceTest Coverage Results" MODIFIED="1744203875192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>pizzashop.service.*</FILTER>
-    </SUITE>
   </component>
 </project>

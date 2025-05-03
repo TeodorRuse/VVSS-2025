@@ -1,4 +1,4 @@
-package pizzashop.service;
+package pizzashop.service.F0102;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -6,6 +6,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.service.PizzaService;
 
 import java.io.FileWriter;
 import java.io.IOException;
