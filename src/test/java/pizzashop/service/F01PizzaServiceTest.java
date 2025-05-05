@@ -1,4 +1,4 @@
-package pizzashop.service.F0102;
+package pizzashop.service;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
