@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab03_FixExcell">
-      <change afterPath="$PROJECT_DIR$/Docs/Lab04/Prj236_test_spec-2025-05-05.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -95,16 +93,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L04PizzaERSTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rtir3415" />
+    <configuration name="R_PaymentRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizzashop.service.F0102.*" />
+          <option name="PATTERN" value="pizzashop.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.L04PizzaERSTesting" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.R_PaymentRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,8 +154,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.R_PaymentRepositoryTest (1)" />
       <item itemvalue="JUnit.E_PaymentTest" />
-      <item itemvalue="JUnit.L04PizzaERSTesting" />
       <item itemvalue="JUnit.R_PaymentRepositoryTest" />
       <item itemvalue="JUnit.S_PizzaServiceTest" />
       <item itemvalue="JUnit.Step2" />
@@ -165,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Step2" />
+        <item itemvalue="JUnit.R_PaymentRepositoryTest (1)" />
         <item itemvalue="JUnit.S_PizzaServiceTest" />
         <item itemvalue="JUnit.R_PaymentRepositoryTest" />
         <item itemvalue="JUnit.E_PaymentTest" />
-        <item itemvalue="JUnit.L04PizzaERSTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -190,8 +188,17 @@
       <workItem from="1746261274613" duration="1225000" />
       <workItem from="1746267980028" duration="1463000" />
       <workItem from="1746269450411" duration="531000" />
-      <workItem from="1746463812275" duration="4480000" />
+      <workItem from="1746463812275" duration="4888000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab04">
+      <option name="closed" value="true" />
+      <created>1746469924242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746469924242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab03_FixExcell" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab03_FixExcell" />
+    <MESSAGE value="Lab04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04" />
   </component>
 </project>
