@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/S_PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/S_PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/Step2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/Step2.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +48,8 @@
   "keyToString": {
     "JUnit.E_PaymentTest (1).executor": "Run",
     "JUnit.E_PaymentTest.executor": "Run",
+    "JUnit.F01PizzaServiceTest.executor": "Run",
+    "JUnit.F02PizzaServiceTest.executor": "Run",
     "JUnit.L04PizzaERSTesting.executor": "Run",
     "JUnit.R_PaymentRepositoryTest (1).executor": "Run",
     "JUnit.R_PaymentRepositoryTest.executor": "Run",
@@ -85,7 +79,7 @@
       <recent name="pizzashop.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.F02PizzaServiceTest">
+  <component name="RunManager" selected="JUnit.S_PizzaServiceTest (1)">
     <configuration name="F01PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
@@ -170,9 +164,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.S_PizzaServiceTest (1)" />
         <item itemvalue="JUnit.F02PizzaServiceTest" />
         <item itemvalue="JUnit.F01PizzaServiceTest" />
-        <item itemvalue="JUnit.S_PizzaServiceTest (1)" />
         <item itemvalue="JUnit.Step2" />
         <item itemvalue="JUnit.R_PaymentRepositoryTest (1)" />
       </list>
@@ -196,7 +190,7 @@
       <workItem from="1746261274613" duration="1225000" />
       <workItem from="1746267980028" duration="1463000" />
       <workItem from="1746269450411" duration="531000" />
-      <workItem from="1746463812275" duration="7527000" />
+      <workItem from="1746463812275" duration="7842000" />
     </task>
     <task id="LOCAL-00001" summary="Lab04">
       <option name="closed" value="true" />
@@ -214,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746470319060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab04.02">
+      <option name="closed" value="true" />
+      <created>1746473007618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746473007618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +226,7 @@
     <MESSAGE value="Lab03_FixExcell" />
     <MESSAGE value="Lab04" />
     <MESSAGE value="Lab04.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab04.01" />
+    <MESSAGE value="Lab04.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04.02" />
   </component>
 </project>
