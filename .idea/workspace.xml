@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.05" />
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.06" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +79,7 @@
       <recent name="pizzashop.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.F01PizzaServiceTest">
+  <component name="RunManager" selected="JUnit.S_PizzaServiceTest (1)">
     <configuration name="F01PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
@@ -164,8 +164,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.F01PizzaServiceTest" />
         <item itemvalue="JUnit.S_PizzaServiceTest (1)" />
+        <item itemvalue="JUnit.F01PizzaServiceTest" />
         <item itemvalue="JUnit.F02PizzaServiceTest" />
         <item itemvalue="JUnit.Step2" />
         <item itemvalue="JUnit.R_PaymentRepositoryTest (1)" />
@@ -190,7 +190,7 @@
       <workItem from="1746261274613" duration="1225000" />
       <workItem from="1746267980028" duration="1463000" />
       <workItem from="1746269450411" duration="531000" />
-      <workItem from="1746463812275" duration="8548000" />
+      <workItem from="1746463812275" duration="8863000" />
     </task>
     <task id="LOCAL-00001" summary="Lab04">
       <option name="closed" value="true" />
@@ -248,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746473663690</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lab04.06">
+      <option name="closed" value="true" />
+      <created>1746474052965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746474052966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +270,7 @@
     <MESSAGE value="Lab04.03" />
     <MESSAGE value="Lab04.04" />
     <MESSAGE value="Lab04.05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab04.05" />
+    <MESSAGE value="Lab04.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04.06" />
   </component>
 </project>
