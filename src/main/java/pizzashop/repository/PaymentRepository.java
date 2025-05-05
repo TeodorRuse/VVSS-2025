@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class PaymentRepository {
-    private static String filename = "data/payments.csv";
+    private static String filename = "data/payments.txt";
     private List<Payment> paymentList;
 
     public PaymentRepository(){

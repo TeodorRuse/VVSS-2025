@@ -2,7 +2,6 @@ package pizzashop.service;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
@@ -22,8 +21,8 @@ class F01PizzaServiceTest {
 
     @BeforeEach
     void setUp() throws IOException {
-        // Curățăm fișierul payments.csv pentru a porni mereu de la 0
-        FileWriter fw = new FileWriter("data/payments.csv", false); // false = overwrite
+        // Curățăm fișierul payments.txt pentru a porni mereu de la 0
+        FileWriter fw = new FileWriter("data/payments.txt", false); // false = overwrite
         fw.write("");
         fw.close();
 
@@ -87,40 +86,59 @@ class F01PizzaServiceTest {
 //        }
 //    }
 
+    // BVA Valid pentru Tabel
+    @DisplayName("BVA Test Table Values - Valid")
+    @Test
+    void testValidTableValues_BVA() {
+        // Tabel 1 (minim valid)
+        service.addPayment(1, PaymentType.Card, 20.0);
+        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == 20.0 && p.getTableNumber() == 1));
 
-    @ParameterizedTest
-    @CsvFileSource(resources = "/payments.csv", numLinesToSkip = 1)
-    void testValidTableValues(int table, double amount) {
-        service.addPayment(table, PaymentType.Card, amount);
-        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));
+        // Tabel 8 (maxim valid)
+        service.addPayment(8, PaymentType.Card, 30.0);
+        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == 30.0 && p.getTableNumber() == 8));
     }
 
-    @ParameterizedTest
-    @CsvSource({ "0, 40.0", "9, 40.0" })
-    void testInvalidTableValues(int table, double amount) {
+    // BVA Invalid pentru Tabel
+    @DisplayName("BVA Test Table Values - Invalid")
+    @Test
+    void testInvalidTableValues_BVA() {
+        // Tabel 0 (invalid sub min)
         assertThrows(IllegalArgumentException.class, () -> {
-            service.addPayment(table, PaymentType.Card, amount);
+            service.addPayment(0, PaymentType.Card, 40.0);
+        });
+
+        // Tabel 9 (invalid peste max)
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addPayment(9, PaymentType.Card, 40.0);
         });
     }
 
-    @DisplayName("BVA Test Amount Values")
-    @ParameterizedTest
-    @CsvSource({
-            "2, 0.01",   // Min valid
-            "2, 100.0",  // Max valid
-            "2, 0.0",    // Invalid below min
-            "2, -5.0"    // Invalid above max
-    })
-    @Order(6)
-    void testAddPayment_BVA_Amounts(int table, double amount) {
-        if (amount > 0) {
-            service.addPayment(table, PaymentType.Cash, amount);
-            assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));
-        } else {
-            assertThrows(IllegalArgumentException.class, () -> {
-                service.addPayment(table, PaymentType.Cash, amount);
-            });
-        }
+    // BVA Valid pentru Suma (Amount)
+    @DisplayName("BVA Test Amount Values - Valid")
+    @Test
+    void testValidAmountValues_BVA() {
+        // Sumă 0.01 (minim valid)
+        service.addPayment(2, PaymentType.Card, 0.01);
+        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == 0.01 && p.getTableNumber() == 2));
+
+        // Sumă 100.0 (maxim valid)
+        service.addPayment(2, PaymentType.Card, 100.0);
+        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == 100.0 && p.getTableNumber() == 2));
     }
 
+    // BVA Invalid pentru Suma (Amount)
+    @DisplayName("BVA Test Amount Values - Invalid")
+    @Test
+    void testInvalidAmountValues_BVA() {
+        // Sumă 0.0 (invalid sub min)
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addPayment(2, PaymentType.Card, 0.0);
+        });
+
+        // Sumă -5.0 (invalid valoare negativă)
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addPayment(2, PaymentType.Card, -5.0);
+        });
+    }
 }

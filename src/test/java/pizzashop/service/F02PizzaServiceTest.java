@@ -21,8 +21,8 @@ class F02PizzaServiceTest {
 
     @BeforeEach
     void setUp() throws IOException {
-        // Resetăm fișierul payments.csv
-        FileWriter fw = new FileWriter("data/payments.csv", false);
+        // Resetăm fișierul payments.txt
+        FileWriter fw = new FileWriter("data/payments.txt", false);
         fw.write("");
         fw.close();
 
