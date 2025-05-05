@@ -66,24 +66,39 @@ class F01PizzaServiceTest {
     }
 
 
-    @DisplayName("BVA Test Table Values")
+//    @DisplayName("BVA Test Table Values")
+//    @ParameterizedTest
+//    @CsvSource(value = {
+//            "1, 20.0", // Min valid
+//            "8, 30.0", // Max valid
+//            "0, 40.0", // Invalid below min
+//            "9, 40.0"  // Invalid above max
+//    })
+//    @Order(5)
+//    void testAddPayment_BVA_Tables(int table, double amount) {
+//        if (table >= 1 && table <= 8) {
+//            service.addPayment(table, PaymentType.Card, amount);
+//            assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));
+//        } else {
+//            assertThrows(IllegalArgumentException.class, () -> {
+//                service.addPayment(table, PaymentType.Card, amount);
+//            });
+//        }
+//    }
+
     @ParameterizedTest
-    @CsvSource(value = {
-            "1, 20.0", // Min valid
-            "8, 30.0", // Max valid
-            "0, 40.0", // Invalid below min
-            "9, 40.0"  // Invalid above max
-    })
-    @Order(5)
-    void testAddPayment_BVA_Tables(int table, double amount) {
-        if (table >= 1 && table <= 8) {
+    @CsvSource({ "1, 20.0", "8, 30.0" })
+    void testValidTableValues(int table, double amount) {
+        service.addPayment(table, PaymentType.Card, amount);
+        assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));
+    }
+
+    @ParameterizedTest
+    @CsvSource({ "0, 40.0", "9, 40.0" })
+    void testInvalidTableValues(int table, double amount) {
+        assertThrows(IllegalArgumentException.class, () -> {
             service.addPayment(table, PaymentType.Card, amount);
-            assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));
-        } else {
-            assertThrows(IllegalArgumentException.class, () -> {
-                service.addPayment(table, PaymentType.Card, amount);
-            });
-        }
+        });
     }
 
     @DisplayName("BVA Test Amount Values")
