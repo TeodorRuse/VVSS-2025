@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.10" />
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.11" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +48,7 @@
   "keyToString": {
     "JUnit.E_PaymentTest (1).executor": "Run",
     "JUnit.E_PaymentTest.executor": "Run",
-    "JUnit.F01PizzaServiceTest.executor": "Debug",
+    "JUnit.F01PizzaServiceTest.executor": "Run",
     "JUnit.F02PizzaServiceTest.executor": "Run",
     "JUnit.L04PizzaERSTesting.executor": "Run",
     "JUnit.R_PaymentRepositoryTest (1).executor": "Run",
@@ -186,7 +186,7 @@
       <workItem from="1746269450411" duration="531000" />
       <workItem from="1746463812275" duration="9240000" />
       <workItem from="1746474560058" duration="216000" />
-      <workItem from="1746474792804" duration="2423000" />
+      <workItem from="1746474792804" duration="2727000" />
     </task>
     <task id="LOCAL-00001" summary="Lab04">
       <option name="closed" value="true" />
@@ -292,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746476615809</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lab04.11">
+      <option name="closed" value="true" />
+      <created>1746477519111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746477519111</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +319,7 @@
     <MESSAGE value="Lab04.08" />
     <MESSAGE value="Lab04.09" />
     <MESSAGE value="Lab04.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab04.10" />
+    <MESSAGE value="Lab04.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04.11" />
   </component>
 </project>

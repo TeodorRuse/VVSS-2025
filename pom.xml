@@ -114,13 +114,13 @@
       <!--        <artifactId>maven-compiler-plugin</artifactId>-->
       <!--        <version>3.8.0</version>-->
       <!--      </plugin>-->
-      <plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-        <configuration>
-          <!--                <failIfNoTests>false</failIfNoTests>-->
-        </configuration>
-      </plugin>
+<!--      <plugin>-->
+<!--        <artifactId>maven-surefire-plugin</artifactId>-->
+<!--        <version>2.22.1</version>-->
+<!--        <configuration>-->
+<!--          &lt;!&ndash;                <failIfNoTests>false</failIfNoTests>&ndash;&gt;-->
+<!--        </configuration>-->
+<!--      </plugin>-->
 <!--      <plugin>-->
 <!--        <groupId>org.apache.maven.plugins</groupId>-->
 <!--        <artifactId>maven-failsafe-plugin</artifactId>-->
