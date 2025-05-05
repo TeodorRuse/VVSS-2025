@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.11" />
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.12">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/payments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/F01PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/F01PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/F02PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/F02PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/Step3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/Step3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +193,7 @@
       <workItem from="1746269450411" duration="531000" />
       <workItem from="1746463812275" duration="9240000" />
       <workItem from="1746474560058" duration="216000" />
-      <workItem from="1746474792804" duration="2727000" />
+      <workItem from="1746474792804" duration="3496000" />
     </task>
     <task id="LOCAL-00001" summary="Lab04">
       <option name="closed" value="true" />
@@ -300,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746477519111</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lab04.12">
+      <option name="closed" value="true" />
+      <created>1746477854003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746477854003</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +335,7 @@
     <MESSAGE value="Lab04.09" />
     <MESSAGE value="Lab04.10" />
     <MESSAGE value="Lab04.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab04.11" />
+    <MESSAGE value="Lab04.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04.12" />
   </component>
 </project>

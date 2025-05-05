@@ -2,6 +2,7 @@ package pizzashop.service;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
@@ -21,8 +22,8 @@ class F01PizzaServiceTest {
 
     @BeforeEach
     void setUp() throws IOException {
-        // Curățăm fișierul payments.txt pentru a porni mereu de la 0
-        FileWriter fw = new FileWriter("data/payments.txt", false); // false = overwrite
+        // Curățăm fișierul payments.csv pentru a porni mereu de la 0
+        FileWriter fw = new FileWriter("data/payments.csv", false); // false = overwrite
         fw.write("");
         fw.close();
 
@@ -86,8 +87,9 @@ class F01PizzaServiceTest {
 //        }
 //    }
 
+
     @ParameterizedTest
-    @CsvSource({ "1, 20.0", "8, 30.0" })
+    @CsvFileSource(resources = "/payments.csv", numLinesToSkip = 1)
     void testValidTableValues(int table, double amount) {
         service.addPayment(table, PaymentType.Card, amount);
         assertTrue(service.getPayments().stream().anyMatch(p -> p.getAmount() == amount && p.getTableNumber() == table));

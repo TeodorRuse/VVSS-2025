@@ -25,7 +25,7 @@ public class Step3 {
     @BeforeEach
     public void setup() {
         // Golim fisierul de plati inainte de fiecare test pentru a evita acumularea datelor
-        try (PrintWriter writer = new PrintWriter("data/payments.txt")) {
+        try (PrintWriter writer = new PrintWriter("data/payments.csv")) {
             writer.print(""); // Sterge tot continutul fisierului
         } catch (IOException e) {
             fail("Nu am putut curata fisierul de plati: " + e.getMessage());
