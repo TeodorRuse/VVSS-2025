@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.06" />
+    <list default="true" id="9b99e711-7dc0-4a03-bfd3-ce3a82ed9c4b" name="Changes" comment="Lab04.07">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,33 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.E_PaymentTest (1).executor": "Run",
-    "JUnit.E_PaymentTest.executor": "Run",
-    "JUnit.F01PizzaServiceTest.executor": "Run",
-    "JUnit.F02PizzaServiceTest.executor": "Run",
-    "JUnit.L04PizzaERSTesting.executor": "Run",
-    "JUnit.R_PaymentRepositoryTest (1).executor": "Run",
-    "JUnit.R_PaymentRepositoryTest.executor": "Run",
-    "JUnit.S_PizzaServiceTest (1).executor": "Debug",
-    "JUnit.Step2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.E_PaymentTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E_PaymentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.F01PizzaServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.F02PizzaServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.L04PizzaERSTesting.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.R_PaymentRepositoryTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.R_PaymentRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.S_PizzaServiceTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Step2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Universitait\Anul 3\Semestrul 2\VVSS\Lab\PizzaShop\Docs\Lab04" />
@@ -190,7 +193,8 @@
       <workItem from="1746261274613" duration="1225000" />
       <workItem from="1746267980028" duration="1463000" />
       <workItem from="1746269450411" duration="531000" />
-      <workItem from="1746463812275" duration="8863000" />
+      <workItem from="1746463812275" duration="9240000" />
+      <workItem from="1746474560058" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="Lab04">
       <option name="closed" value="true" />
@@ -256,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746474052966</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lab04.07">
+      <option name="closed" value="true" />
+      <created>1746474315608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746474315608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +283,7 @@
     <MESSAGE value="Lab04.04" />
     <MESSAGE value="Lab04.05" />
     <MESSAGE value="Lab04.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab04.06" />
+    <MESSAGE value="Lab04.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab04.07" />
   </component>
 </project>

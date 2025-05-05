@@ -13,5 +13,5 @@ module pizzashop {
     exports pizzashop.repository;
 
     // Permite testelor acces la module
-    opens pizzashop.service to org.junit.platform.commons;
+    opens pizzashop.service to org.junit.jupiter.api; // Deschide pizzashop.service pentru JUnit
 }
