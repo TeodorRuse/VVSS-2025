@@ -11,6 +11,7 @@ module pizzashop {
     opens pizzashop.controller to javafx.fxml;
     exports pizzashop.controller;
     exports pizzashop.repository;
+    exports pizzashop.service;
 
     // Permite testelor acces la module
     opens pizzashop.service to org.junit.jupiter.api, org.junit.platform.commons; // Deschide pizzashop.service pentru JUnit
