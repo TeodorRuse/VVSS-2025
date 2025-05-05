@@ -1,118 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>pizzashop</groupId>
   <artifactId>rtir3415</artifactId>
   <version>1.0-SNAPSHOT</version>
-
   <name>PizzaShop</name>
-  <!-- FIXME change it to the project's website -->
-<!--  <url>http://www.example.com</url>-->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <maven.compiler.source>21</maven.compiler.source>
-      <maven.compiler.target>21</maven.compiler.target>
-<!--    <junit-plaform.version>5.6.0</junit-plaform.version>-->
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <javafx.version>21</javafx.version>
   </properties>
-
-<!--  <dependencies>-->
-<!--    &lt;!&ndash; JUnit 5&ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-engine</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-api</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-params</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-base</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-graphics</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-controls</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-fxml</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-media</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-swing</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.openjfx</groupId>-->
-<!--      <artifactId>javafx-web</artifactId>-->
-<!--      <version>14-ea+4</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>log4j</groupId>-->
-<!--      <artifactId>log4j</artifactId>-->
-<!--      <version>1.2.17</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.controlsfx</groupId>-->
-<!--      <artifactId>controlsfx</artifactId>-->
-<!--      <version>11.0.1</version>-->
-<!--    </dependency>-->
-
-<!--    &lt;!&ndash; JUnit Jupiter Engine (pentru rularea testelor) &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-engine</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-
-<!--    &lt;!&ndash; JUnit Jupiter API (pentru scrierea testelor) &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-api</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-
-<!--    &lt;!&ndash; JUnit Jupiter Params (pentru testele parametrizate) &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter-params</artifactId>-->
-<!--      <version>5.6.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--  </dependencies>-->
 
   <dependencies>
 
-    <!-- ✅ JUnit 5 complet -->
+    <!-- ✅ JUnit 5 -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -120,7 +29,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- ✅ Suport pentru @Suite, @SelectClasses -->
+    <!-- ✅ JUnit Platform Suite API (ex: @Suite, @SelectClasses) -->
     <dependency>
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-suite-api</artifactId>
@@ -128,15 +37,13 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- ✅ Mockito core (mock-uri generale) -->
+    <!-- ✅ Mockito -->
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>5.12.0</version>
       <scope>test</scope>
     </dependency>
-
-    <!-- ✅ Mockito + JUnit 5 (@ExtendWith(MockitoExtension.class)) -->
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
@@ -144,180 +51,80 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- ✅ JavaFX - necesar pentru interfața aplicației -->
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-base</artifactId>
-      <version>14-ea+4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-graphics</artifactId>
-      <version>14-ea+4</version>
-    </dependency>
+    <!-- ✅ JavaFX (folosește javafx.version pentru a schimba rapid toate) -->
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
-      <version>14-ea+4</version>
+      <version>${javafx.version}</version>
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-fxml</artifactId>
-      <version>14-ea+4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-media</artifactId>
-      <version>14-ea+4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-swing</artifactId>
-      <version>14-ea+4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-web</artifactId>
-      <version>14-ea+4</version>
+      <version>${javafx.version}</version>
     </dependency>
 
-    <!-- ✅ Logging -->
+    <!-- ✅ Logging (Log4J 1.x, alternativ se poate folosi Log4J2 sau SLF4J) -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
 
-    <!-- ✅ ControlsFX -->
+    <!-- ✅ ControlsFX pentru UI -->
     <dependency>
       <groupId>org.controlsfx</groupId>
       <artifactId>controlsfx</artifactId>
-      <version>11.0.1</version>
+      <version>11.1.1</version>
     </dependency>
-
-    <!-- ❌ Variante vechi JUnit (necesar doar dacă nu folosești `junit-jupiter`) -->
-    <!--
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.6.0</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.6.0</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
-        <version>5.6.0</version>
-        <scope>test</scope>
-    </dependency>
-    -->
 
   </dependencies>
 
-
   <build>
     <plugins>
-      <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.1.0</version>
-      </plugin>
-      <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-      <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.0.2</version>
-      </plugin>
-<!--      <plugin>-->
-<!--        <artifactId>maven-compiler-plugin</artifactId>-->
-<!--        <version>3.8.0</version>-->
-<!--      </plugin>-->
-      <plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-        <configuration>
-          <!--                <failIfNoTests>false</failIfNoTests>-->
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-failsafe-plugin</artifactId>
-        <version>2.22.1</version>
-      </plugin>
-      <plugin>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
-      </plugin>
-      <plugin>
-        <artifactId>maven-install-plugin</artifactId>
-        <version>2.5.2</version>
-      </plugin>
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>2.8.2</version>
-      </plugin>
-      <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-      </plugin>
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.0.0</version>
-      </plugin>
 
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.2.1</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>java</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <mainClass>pizzashop.Main</mainClass>
-        </configuration>
-      </plugin>
+      <!-- Compiler -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
         <configuration>
-          <source>9</source>
-          <target>9</target>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
         </configuration>
       </plugin>
+
+      <!-- Surefire pentru testare -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+      </plugin>
+
+      <!-- JavaFX Plugin -->
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>pizzashop.Main</mainClass>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
   </build>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
   <repositories>
     <repository>
       <id>central</id>
-      <name>Central Repository</name>
+      <name>Maven Central</name>
       <url>https://repo.maven.apache.org/maven2</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
     </repository>
   </repositories>
 
